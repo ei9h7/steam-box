@@ -16,6 +16,7 @@ jobs:
   build:
     name: Upddate-gist
     runs-on: ubuntu-latest
+    environment: prod
     env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
